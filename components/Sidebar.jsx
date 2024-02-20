@@ -16,22 +16,22 @@ function Sidebar() {
                 <BsFire className='text-[#409BEE] text-xl sm:text-3xl' />
             </div>
             <div className=' text-2xl flex flex-col justify-evenly items-center gap-5 text-white'>
-                <div>
+                <div className='  hover:bg-[#2C3A58] h-10 w-10 flex justify-center items-center rounded-lg'>
                     <AiOutlineHome />
                 </div>
-                <div>
+                <div className='  hover:bg-[#2C3A58] h-10 w-10 flex justify-center items-center rounded-lg'>
                     <FaRegFileAlt />
                 </div>
-                <div>
+                <div className='  hover:bg-[#2C3A58] h-10 w-10 flex justify-center items-center rounded-lg'>
                     <PiChatCircleTextBold />
                 </div>
-                <div>
+                <div className='  hover:bg-[#2C3A58] h-10 w-10 flex justify-center items-center rounded-lg'>
                     <PiChatCircleTextBold />
                 </div>
-                <div>
+                <div className='  hover:bg-[#2C3A58] h-10 w-10 flex justify-center items-center rounded-lg'>
                     <LuPieChart />
                 </div>
-                <div>
+                <div className='  hover:bg-[#2C3A58] h-10 w-10 flex justify-center items-center rounded-lg'>
                     <IoSettingsOutline />
                 </div>
             </div>

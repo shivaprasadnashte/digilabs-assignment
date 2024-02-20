@@ -5,10 +5,15 @@ function Profile() {
     return (
         <>
             <div className=' bg-[#111729] rounded-3xl p-1 pb-10   flex flex-col justify-between items-center'>
-                <div className='relative h-28 w-28 flex justify-center items-center border-4 border-b-[#409BEE] border-t-[#151C39] border-l-[#409BEE] border-r-[#409BEE]   rounded-full'>
-                    <div className='absolute bg-white  w-20 h-20 overflow-hidden flex justify-center rounded-full'>
-                        <img src="https://s3-alpha-sig.figma.com/img/8188/ea25/526e9a7c831b0e2bab81659c8eb0b0a0?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kKb1Rp4IX1zuiy6QfkWfua1LTcjoqvNzVb4CYGyCRbHjhJHA37vARJ5UIeWUPSVeEDrXC40gSKX7vtBSF-B76XgXNH-zQJuhcxFcIaP-zlsbQ4GLdYDtGLd9EZgiH7CWgrPRLEO1EtZgx8q~eFiQ~maByKEeLaUn4YSlQQpRi7usxNbzYMS-eFRVHenJOBfxJ1Uefg2zIYC7TkjxVthiOIP6-tk8-nj-mVeQWOwKNLPffnoJYhDBGDA2i6PEbcuxi~-9PhqqnVtlRDlNmdnMhlzYGUIJbkyTvDi83Tby8GZDURxjELhq1~p43zpAGcXHAcK3DDRfGL4KipJzmUUOhw__"
-                            alt="prof_img" />
+                <div className=' relative rotate-45  h-28 w-28'>
+                    <div className=' relative  h-28 w-28 flex justify-center items-center border-4 border-b-[#409BEE] border-t-[#151C39] border-l-[#409BEE] border-r-[#409BEE]   rounded-full'>
+                        <div className='  rotate-180  relative'>
+                            <div className=' rotate-90  bg-white  w-20 h-20 overflow-hidden flex justify-center rounded-full'>
+                                <img src="https://s3-alpha-sig.figma.com/img/8188/ea25/526e9a7c831b0e2bab81659c8eb0b0a0?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kKb1Rp4IX1zuiy6QfkWfua1LTcjoqvNzVb4CYGyCRbHjhJHA37vARJ5UIeWUPSVeEDrXC40gSKX7vtBSF-B76XgXNH-zQJuhcxFcIaP-zlsbQ4GLdYDtGLd9EZgiH7CWgrPRLEO1EtZgx8q~eFiQ~maByKEeLaUn4YSlQQpRi7usxNbzYMS-eFRVHenJOBfxJ1Uefg2zIYC7TkjxVthiOIP6-tk8-nj-mVeQWOwKNLPffnoJYhDBGDA2i6PEbcuxi~-9PhqqnVtlRDlNmdnMhlzYGUIJbkyTvDi83Tby8GZDURxjELhq1~p43zpAGcXHAcK3DDRfGL4KipJzmUUOhw__"
+                                    alt="prof_img"
+                                    className=' rotate-45' />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className=' flex flex-col items-center'>
