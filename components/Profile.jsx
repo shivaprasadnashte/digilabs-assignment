@@ -37,7 +37,7 @@ function Profile() {
                             </div>
                             <div className=' border border-gray-600 absolute left-16 bg-[#CBF8BB] h-8 w-8 rounded-full flex justify-center items-center overflow-hidden'>
                                 <img src="https://s3-alpha-sig.figma.com/img/b600/cc80/c5f0dad9ee571a641b107b1231ac6e16?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oMq0tidW6vpvrv~xeFKbhLfwYyCosxDfb96lMss3FcL0cIKghkbzIOdOAC7CU2BawQSxn3CKBKnm2Lricb-26ltKaBHQdzS19sCFwGLffTom96J6AhPKcZEamTb7P9-8SCtdfquEt9WjhKbcd8A7zGV5f1e9RzbZ74ljurcEyT9jxwW0yNlFieJxzvsS-vchWlERobOiVjV3n60GTDC-YWf~9siD9JAM9W6MB0jEYPaPxBKbANBVBGtOlWoxUhaJ-W~keyDveTdIXEBirCDINzb9JqtZlszFuAKpDuhzTWhAEYP9G6JRegQHVAh351mAEe1JFVfSLIXR-nNtXOlgUw__"
-                                    width={30} alt="" />
+                                    width={30} alt="." />
                             </div>
                             <div className=' border border-gray-600  absolute left-20 text-black bg-[#CBF8BB] h-8 w-8 rounded-full flex justify-center items-center overflow-hidden'>
                                 <p>8+</p>
