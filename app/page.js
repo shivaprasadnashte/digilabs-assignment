@@ -15,14 +15,14 @@ export default function Home() {
         <div className=" h-full">
           <Sidebar />
         </div>
-        <div className=" w-full bg-[#151C39] p-2 overflow-auto overflow-x-hidden h-screen sm:justify-evenly  no-scrollbar rounded-lg flex sm:flex-row flex-col">
+        <div className=" w-full bg-[#151C39] p-2 overflow-auto  h-screen sm:justify-evenly  no-scrollbar rounded-lg flex sm:flex-row flex-col">
           <div className=" lg:w-2/3 w-full ">
             <Header />
             <div className=" p-1 w-full  lg:hidden">
               <Profile />
             </div>
             <div className=" flex sm:flex-row  flex-col gap-5 justify-evenly   ">
-              <div className=" flex flex-col  gap-5">
+              <div className=" flex flex-col  justb gap-9 mt-2">
                 <PatientsvisitedCard />
                 <UpcomingEventsCard />
               </div>

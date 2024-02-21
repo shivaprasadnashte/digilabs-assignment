@@ -18,6 +18,7 @@ function StatisticsCard() {
                         <div className="icon"></div>
                     </div>
                 </div>
+                <img src="/statics.jpg" alt="" />
             </div>
         </>
     )
